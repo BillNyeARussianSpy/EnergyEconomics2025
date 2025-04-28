@@ -3,14 +3,25 @@ Repo for energy economics paper. A bunch of models exist here for different appl
 Original theoretical model in "Model.ipynb"
 
 
-Documentation       - Rasmus' original documentation in here (pending change). Mostly for theoretical justification behind lpSolve and "blocks". 
-Data                - See DownloadDataForDK folder (pending change)
-pySolv Models       - Various Iterations and testbed for various linear programming implementations (i.e. to solve maximisation problems)
-                      NOTE: Some of these may be used in final implementation
-DownloadDataForDK   - Helpful guide by Rasmus to download energy data for Europe and Denmark. 
-Project             - Main Project File. Contains all necessary supporting code/data and can be run isolated. 
-                          - Project\Project\Main.ipynb contains all solving and visualisations for each scenario. 
-                          - Project\Data is all the necessary simulation data
+### Documentation
+- Rasmus' original documentation is here (pending change).
+- Mostly for theoretical justification behind **lpSolve** and "blocks".
+
+### Data
+- See the `DownloadDataForDK` folder (pending change).
+
+### pySolv Models
+- Various iterations and testbeds for different linear programming implementations (i.e., to solve maximization problems).
+- **Note:** Some of these may be used in the final implementation.
+
+### DownloadDataForDK
+- Helpful guide by Rasmus to download energy data for Europe and Denmark.
+
+### Project
+- Main project folder. Contains all necessary supporting code/data and can be run independently.
+  - `Project/Project/Main.ipynb`: Contains all solving and visualizations for each scenario.
+  - `Project/Data`: Contains all the necessary simulation data.
+
 
 
 TODO's
